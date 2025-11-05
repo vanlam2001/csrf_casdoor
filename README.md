@@ -1,4 +1,4 @@
-# Casdoor v2.94.0 – Cross-Site Request Forgery (CSRF)
+# Casdoor – Cross-Site Request Forgery (CSRF)
 
 Summary
 - Vulnerability: CSRF in `/api/set-password` allowing password changes without consent.
