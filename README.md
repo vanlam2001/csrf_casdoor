@@ -66,3 +66,6 @@ Repository Files
 References
 - Casdoor: https://casdoor.org/
 - Version: https://github.com/casdoor/casdoor/releases
+
+Video
+- Youtube: https://youtu.be/N5VENgiObjY
