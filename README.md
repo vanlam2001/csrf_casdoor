@@ -48,7 +48,7 @@ How to Integrate into Casdoor
 2. Register the filter early in the HTTP pipeline (inside `main`):
    ```go
    // Beego v1 style
-   beego.InsertFilter("/api/*", beego.BeforeRouter, routers.CSRFFilter)
+   web.InsertFilter("/api/*", web.BeforeRouter, routers.CSRFFilter)
    
    // If your project uses Beego v2 and imports as `web`:
    // web.InsertFilter("/api/*", web.BeforeRouter, routers.CSRFFilter)
